@@ -1,0 +1,6 @@
+Record=TopLevelDocument|FileName=rf_detector_adcdac.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=rf_detector_adcdac.SchDoc|FileName=rf_detector_detector.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=rf_detector_adcdac.SchDoc|FileName=rf_detector_lvds.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=rf_detector_adcdac.SchDoc|FileName=rf_detector_pwr.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=rf_detector_adcdac.SchDoc|FileName=rf_detector_temp_regulator.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=rf_detector_adcdac.SchDoc|FileName=rf_detector_top.SchDoc|SheetNumber=1
