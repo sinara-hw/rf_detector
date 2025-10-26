@@ -1,0 +1,74 @@
+Protel Design System Design Rule Check
+PCB File : \\Mac\Home\Documents\Sinara\Altium\rf_detector\rf_detector.PcbDoc
+Date     : 26.10.2025
+Time     : 23:17:19
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: balancing On Bottom Layer
+   Polygon named: balancing On Top Layer
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) ((InDifferentialPairClass('All Differential Pairs'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.21mm) (InNamedPolygon('balancing')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (IsPad and InNet('GND')),(IsVia)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (IsPad),(IsVia)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Polygon  (balancing) on Inner Layer 2 Dead Copper - Net Not Assigned.
+Rule Violations :1
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+   Violation between Modified Polygon: Polygon Shelved  (balancing) on Bottom Layer 
+   Violation between Modified Polygon: Polygon Shelved  (balancing) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Width Constraint (Min=0.152mm) (Max=1816.048mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.381mm) (Max=1.27mm) (Preferred=0.508mm) (InNetClass('Hpower'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.076mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.25mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (not OnTopSilkscreen and not OnBottomSilkscreen)
+   Violation between Board Outline Clearance(Outline Edge): (0mm < 0.2mm) Between Area Fill (0mm,0mm) (2.75mm,119mm) on Bottom Layer And Board Edge 
+   Violation between Board Outline Clearance(Outline Edge): (0mm < 0.2mm) Between Area Fill (0mm,0mm) (2.75mm,119mm) on Top Layer And Board Edge 
+   Violation between Board Outline Clearance(Outline Edge): (0mm < 0.2mm) Between Area Fill (76.75mm,0mm) (79.5mm,119mm) on Bottom Layer And Board Edge 
+   Violation between Board Outline Clearance(Outline Edge): (0mm < 0.2mm) Between Area Fill (76.75mm,0mm) (79.5mm,119mm) on Top Layer And Board Edge 
+Rule Violations :4
+
+
+Violations Detected : 7
+Waived Violations : 0
+Time Elapsed        : 00:00:04
