@@ -102,7 +102,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=GBCKWPSB
 
 [Document4]
 DocumentPath=rf_modulator_source_top.SchDoc
@@ -136,7 +136,15 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RRWTKRPT
+
+[ProjectVariant1]
+UniqueID=EF1E088E-1F15-472A-B821-9EA1F0FBBE5D
+Description=modulator
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
 
 [Configuration1]
 Name=Sources
